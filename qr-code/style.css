@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+.card {
+    position: fixed;
+    margin: auto;
+    inset: 0;
+
+    background-color: white;
+    width: 302px;
+    height: 470px;
+    border-radius: 20px;
+
+    padding: 16px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.123);
+}
+
+.image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text {
+    padding: 15px;
+}
+
+h2 {
+    margin-top: 5px;
+    line-height: 25px;
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    color: rgb(4, 32, 79);
+}
+
+p {
+    margin-top: 2px;
+    padding: 10px;
+
+    color: rgb(159, 159, 159);
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+}
