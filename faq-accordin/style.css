@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+}
+
+.header {
+    background-image: url("./background-pattern-desktop.svg");
+    width: 100vw;
+    height: 320px;
+    background-size: cover;
+}
+
+.card {
+    background-color: white;
+    width: 600px;
+    height: 560px;
+
+    box-shadow: 1px 1px 60px 1px rgba(0, 0, 0, 0.137);
+    margin: auto;
+    position: fixed;
+    inset: 0;
+
+    border-radius: 20px;
+}
+
+.flexbox-custom {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    color: hsl(292, 42%, 14%); 
+}
+
+h3 {
+    color: hsl(292, 42%, 14%); 
+    font-weight: 600 !important;
+    font-size: 17px !important;
+}
+
+p {
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
